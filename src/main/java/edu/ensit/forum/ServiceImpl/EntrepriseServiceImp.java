@@ -40,10 +40,7 @@ EntrepriseDao entrDao;
 		return entrDao.findAll();
 	}
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
+
 	@Override
 	public Entreprise findById(Long id) {
 		return entrDao.findById(id).get();
@@ -66,6 +63,4 @@ EntrepriseDao entrDao;
 		return new ResponseEntity<>(new ResponseMessage("Update successfully!"), HttpStatus.OK);
 	}
 
->>>>>>> version finale back
->>>>>>> Added my project
 }
