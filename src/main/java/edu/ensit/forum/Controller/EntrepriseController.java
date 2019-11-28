@@ -2,36 +2,28 @@ package edu.ensit.forum.Controller;
 
 import java.util.List;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
+
 import javax.validation.Valid;
 
->>>>>>> version finale back
->>>>>>> Added my project
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
-<<<<<<< HEAD
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-=======
-<<<<<<< HEAD
+
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-=======
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
->>>>>>> version finale back
->>>>>>> Added my project
+
 import org.springframework.web.bind.annotation.RestController;
 
 import edu.ensit.forum.Service.EntrepriseService;
@@ -50,12 +42,8 @@ public class EntrepriseController {
 	@GetMapping("/entreprise")
 	public List<Entreprise> getEntrprises() {
 		return entservice.findAll();
-<<<<<<< HEAD
+
 	
-=======
-<<<<<<< HEAD
-	
-=======
 	}
 	
 	
@@ -71,8 +59,7 @@ public class EntrepriseController {
 	@PutMapping("/updateEntreprise/{id}")
 	public ResponseEntity<?> update(@Valid @RequestBody Entreprise entreprise, @PathVariable long id) {
 		return entservice.updateInvite(entreprise, id);
->>>>>>> version finale back
->>>>>>> Added my project
+
 
 	}
 }
