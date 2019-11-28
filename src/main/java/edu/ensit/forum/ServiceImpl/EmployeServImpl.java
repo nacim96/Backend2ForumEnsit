@@ -44,10 +44,6 @@ public class EmployeServImpl implements EmployeService {
 		return emplDao.findAll();
 	}
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 	@Override
 	public Employe findById(Long id) {
 		return emplDao.findById(id).get();
@@ -70,6 +66,4 @@ public class EmployeServImpl implements EmployeService {
 		return new ResponseEntity<>(new ResponseMessage("Update successfully!"), HttpStatus.OK);
 	}
 
->>>>>>> version finale back
->>>>>>> Added my project
 }
