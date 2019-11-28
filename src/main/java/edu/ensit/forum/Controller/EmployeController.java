@@ -41,9 +41,7 @@ public class EmployeController {
 	public  ResponseEntity<?> registerEmpl( @RequestBody Employe employe) {
 	return empservice.save(employe);}
 
-	return empservice.save(employe);}
-	return empservice.save(employe);
-	}
+	
 
 	@GetMapping("/employes")
 	public List<Employe> getEmployes() {
