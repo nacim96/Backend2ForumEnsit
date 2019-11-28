@@ -20,16 +20,5 @@ public interface UserDao extends JpaRepository<User, Long> {
 	 Boolean existsByIdNotAndUsername(@Param("id") long id, @Param("username") String username);
 	List<User> findByUsernameContaining(String username);
 
-<<<<<<< HEAD
 
-
-
-=======
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> version finale back
->>>>>>> Added my project
 }
