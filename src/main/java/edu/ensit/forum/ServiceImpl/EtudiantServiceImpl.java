@@ -38,10 +38,7 @@ public class EtudiantServiceImpl implements EtudiantService {
 		return etudDao.findAll();
 	}
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
+
 	@Override
 	public Etudiant findById(Long id) {
 		return etudDao.findById(id).get();
@@ -64,6 +61,5 @@ public class EtudiantServiceImpl implements EtudiantService {
 		return new ResponseEntity<>(new ResponseMessage("Update successfully!"), HttpStatus.OK);
 	}
 
->>>>>>> version finale back
->>>>>>> Added my project
+
 }
