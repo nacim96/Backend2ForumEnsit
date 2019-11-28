@@ -7,13 +7,5 @@ import edu.ensit.forum.entity.Invite;
 public interface InviteRepository <T extends Invite> extends JpaRepository<T, Long>{
     Boolean existsByEmail(String email);
 
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> version finale back
->>>>>>> Added my project
 }
