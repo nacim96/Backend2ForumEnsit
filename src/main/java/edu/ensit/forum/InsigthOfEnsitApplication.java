@@ -11,7 +11,6 @@ import edu.ensit.forum.Service.UserService;
 import edu.ensit.forum.entity.User;
 
 @SpringBootApplication
-@ContextConfiguration
 public class InsigthOfEnsitApplication implements CommandLineRunner {
 	@Autowired
 	PasswordEncoder encoder;
