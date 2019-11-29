@@ -3,14 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
+	        <groupId>org.edu.ensit.forum</groupId>
+	        <artifactId>ensit_forum</artifactId>
 		<version>2.2.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>org.edu.ensit.forum</groupId>
-	<artifactId>ensit_forum</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+
 	<name>Insigth_of_Ensit</name>
 	<description>Demo project for Spring Boot</description>
 
